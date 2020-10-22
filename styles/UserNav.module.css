@@ -1,0 +1,25 @@
+.userNav {
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nav {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 550px) {
+    .title {
+        font-size: 14px;
+    }
+
+    .nav {
+        font-size: 12px;
+    }
+}

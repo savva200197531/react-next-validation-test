@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    height: 100vh;
+}
+
+.container:before {
+    position: absolute;
+    content: '';
+    background: url("../images/background.svg") no-repeat center top;
+    background-size: cover;
+    height: 65%;
+    width: 100%;
+    z-index: -1;
+    top: -50px;
+}
+
+.padding {
+    padding: 17px 10px 7px 10px;
+}
+
+@media screen and (max-width: 550px) {
+    .container:before {
+        position: absolute;
+        content: '';
+        background: url("../images/background-lil.svg") no-repeat center top;
+        background-size: cover;
+        height: 65%;
+        width: 100%;
+        z-index: -1;
+        top: -50px;
+    }
+}
